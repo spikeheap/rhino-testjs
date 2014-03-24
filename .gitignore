@@ -1,0 +1,6 @@
+/.gradle
+/build
+/atlassian-ide-plugin.xml
+/rhino-testjs.iml
+/rhino-testjs.ipr
+/rhino-testjs.iws

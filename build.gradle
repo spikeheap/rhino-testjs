@@ -1,0 +1,18 @@
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    mavenCentral()
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.2.1'
+    testCompile "org.spockframework:spock-core:0.7-groovy-2.0" 
+    testCompile "junit:junit:4.11"
+	
+    compile 'org.mozilla:rhino:1.7R4'
+}
